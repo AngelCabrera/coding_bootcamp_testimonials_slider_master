@@ -64,10 +64,6 @@ button:focus{
   background-color: #ffffff;
 }
 
-/* .testimonial_buttons button:hover{
-  background-color: var(--grayish_blue);
-} */
-
 .testimonial_content{
   margin-top: 30px;
   padding: 30px;

@@ -1,4 +1,5 @@
 let x = window.matchMedia("(max-width: 375px)")
+let y = window.matchMedia("(min-width: 768px)")
 
 let testimonialIndex = 1;
 testimonialShow(testimonialIndex);
@@ -18,7 +19,8 @@ function testimonialShow(n) {
   testimonials[testimonialIndex-1].style.display = "flex";
   if(x.matches){
     testimonials[testimonialIndex-1].style.flexDirection = "column";
-  } else {
+  }
+  if(y.matches) {
     testimonials[testimonialIndex-1].style.flexDirection = "row-reverse";
     testimonials[testimonialIndex-1].style.alignItems = "center";
     testimonials[testimonialIndex-1].style.justifyContent = "center";
