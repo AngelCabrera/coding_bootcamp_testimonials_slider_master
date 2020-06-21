@@ -35,8 +35,9 @@ body{
 .testimonial_buttons{
   display: flex;
   position: absolute;
-  bottom: 60%;
+  bottom: 55%;
   border-radius: 20px;
+  background-color: #ffffff;
 }
 
 button:focus{
