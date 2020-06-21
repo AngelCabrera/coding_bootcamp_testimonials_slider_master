@@ -101,3 +101,50 @@ button:focus{
   text-align: center;
   font-size: .6em;
 }
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 768px) {
+  body{
+    background: url('../images/pattern-curve.svg') bottom no-repeat;
+    background-position-x: left;
+    background-size: auto;
+  }
+  .testimonial{
+    /* padding-right: 50px; */
+  }
+  .testimonial_image{
+    height: 90vh;
+    width: 50%;
+  }
+  .testimonial_image img{
+    width: 80%;
+    height: 80%;
+  }
+
+  .testimonial_content{
+    width: 50%;
+    background-position-y: 30px;
+    background-position-x: 150px;
+    position: relative;
+    right: -165px;
+  }
+  .testimonial_text p{
+    font-size: 1.1em;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+  .testimonial_author{
+    display: flex;
+    justify-content: left;
+  }
+  .testimonial_author h5{
+    margin-top: 0;
+    margin-right: 10px;
+  }
+
+  .testimonial_buttons{
+    bottom: 12%;
+    left: 63%;
+  }
+}

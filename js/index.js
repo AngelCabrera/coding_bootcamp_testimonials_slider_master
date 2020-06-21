@@ -1,3 +1,5 @@
+let x = window.matchMedia("(max-width: 375px)")
+
 let testimonialIndex = 1;
 testimonialShow(testimonialIndex);
 
@@ -13,5 +15,12 @@ function testimonialShow(n) {
   for (i = 0; i < testimonials.length; i++) {
       testimonials[i].style.display = "none";
   }
-  testimonials[testimonialIndex-1].style.display = "block";
+  testimonials[testimonialIndex-1].style.display = "flex";
+  if(x.matches){
+    testimonials[testimonialIndex-1].style.flexDirection = "column";
+  } else {
+    testimonials[testimonialIndex-1].style.flexDirection = "row-reverse";
+    testimonials[testimonialIndex-1].style.alignItems = "center";
+    testimonials[testimonialIndex-1].style.justifyContent = "center";
+  }
 }
