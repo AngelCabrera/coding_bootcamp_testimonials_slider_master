@@ -23,4 +23,21 @@ function testimonialShow(n) {
     testimonials[testimonialIndex-1].style.alignItems = "center";
     testimonials[testimonialIndex-1].style.justifyContent = "center";
   }
+
+  document.onkeydown = function(e) {
+    switch (e.keyCode) {
+        case 37:
+            //left
+            e.preventDefault();
+            testimonialIndex--;
+            testimonialShow(testimonialIndex);
+            break;
+        case 39:
+            //right
+            e.preventDefault();
+            testimonialIndex++;
+            testimonialShow(testimonialIndex);
+            break;
+    }
+}
 }
