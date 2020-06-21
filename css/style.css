@@ -14,6 +14,11 @@ body{
   background-size: contain;
 }
 
+.testimonial{
+  display: flex;
+  flex-direction: column;
+}
+
 .testimonial_image{
   height: 300px;
   background-image: url("../images/pattern-bg.svg");
@@ -104,6 +109,11 @@ button:focus{
     background: url('../images/pattern-curve.svg') bottom no-repeat;
     background-position-x: left;
     background-size: auto;
+  }
+
+  .testimonial{
+    display: flex;
+    flex-direction: row-reverse;
   }
 
   .testimonial_image{
