@@ -105,13 +105,12 @@ button:focus{
     background-position-x: left;
     background-size: auto;
   }
-  .testimonial{
-    /* padding-right: 50px; */
-  }
+
   .testimonial_image{
     height: 90vh;
     width: 50%;
   }
+
   .testimonial_image img{
     width: 80%;
     height: 80%;

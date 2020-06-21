@@ -16,11 +16,11 @@ function testimonialShow(n) {
   for (i = 0; i < testimonials.length; i++) {
       testimonials[i].style.display = "none";
   }
-  testimonials[testimonialIndex-1].style.display = "flex";
   if(x.matches){
-    testimonials[testimonialIndex-1].style.flexDirection = "column";
+    testimonials[testimonialIndex-1].style.display = "block";
   }
   if(y.matches) {
+    testimonials[testimonialIndex-1].style.display = "flex";
     testimonials[testimonialIndex-1].style.flexDirection = "row-reverse";
     testimonials[testimonialIndex-1].style.alignItems = "center";
     testimonials[testimonialIndex-1].style.justifyContent = "center";
