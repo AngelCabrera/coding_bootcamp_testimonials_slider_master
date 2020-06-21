@@ -35,8 +35,8 @@ body{
 }
 
 .testimonial_buttons{
-  display: flex;
   position: absolute;
+  left: 39%;
   bottom: 55%;
   border-radius: 20px;
   background-color: #ffffff;
@@ -64,9 +64,9 @@ button:focus{
   background-color: #ffffff;
 }
 
-.testimonial_buttons button:hover{
+/* .testimonial_buttons button:hover{
   background-color: var(--grayish_blue);
-}
+} */
 
 .testimonial_content{
   margin-top: 30px;
