@@ -28,10 +28,13 @@ body{
   width: 250px;
   height: 250px;
   border-radius: 5px;
+  box-shadow: 9px 20px 30px 0px rgba(32,32,70,0.2);
 }
 
 .testimonial_buttons{
   display: flex;
+  position: absolute;
+  bottom: 480px;
 }
 
 input:focus{
@@ -42,7 +45,7 @@ input:focus{
   border: none;
   height: 50px;
   width: 50px;
-  /* background-color: #ffffff; */
+  background-color: #ffffff;
   color: var(--grayish_blue);
   font-weight: 300;
   border-radius: 0px;
