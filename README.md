@@ -1,4 +1,4 @@
-# Challenge from Frontend Mentor - Fylo data storage component
+# Challenge from Frontend Mentor - Coding Bootcamp - Testimonials Slider
 
 ![Design preview for the Fylo data storage component coding challenge](./design/desktop-preview.jpg)
 
