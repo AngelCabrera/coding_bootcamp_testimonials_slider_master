@@ -9,6 +9,9 @@
 
 body{
   font-size: 32px;
+  height: 100vh;
+  background: url('../images/pattern-curve.svg') bottom no-repeat;
+  background-size: contain;
 }
 
 .testimonial_image{
